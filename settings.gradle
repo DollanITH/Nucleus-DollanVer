@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'sponge'
+            url = 'https://repo.spongepowered.org/maven/'
+        }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'Nucleus'
+include 'nucleus-api'
+include 'nucleus-core'
+include 'nucleus-ap'
+
